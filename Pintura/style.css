@@ -1,0 +1,20 @@
+body{
+    background-color:9BED8;
+    color:rgb(0, 0, 0);
+}
+
+h1{
+    font-weight: bold;
+}
+
+span{
+
+    color: #8F0095;
+    border: 1px solid #8F0095;
+    padding: 10px;
+}
+
+.titulo-destaque{
+    color: rgb(253, 163, 60);
+
+}
