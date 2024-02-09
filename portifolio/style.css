@@ -1,17 +1,21 @@
 body{  background-image: url(background_1.jpg);
         background-size: cover;
         color: rgb(23, 24, 24);
+        cursor: url("sword.png"), auto;
 }
-
 h1{
         font-family: "Open Sans", sans-serif;
         color: rgb(238, 231, 233);
 }
-
 p{
         text-align: center;
 }
-
 .testecolor{
         color: rgb(110, 199, 250);
+}
+img{
+        filter: grayscale(100%);
+}
+img:hover{
+        filter: grayscale(0);
 }
