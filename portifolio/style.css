@@ -1,4 +1,4 @@
-body{  background-image: url(background.jpg);
+body{  background-image: url(background_1.jpg);
         background-size: cover;
         color: rgb(23, 24, 24);
         cursor: url("sword.png"), auto;
@@ -17,5 +17,5 @@ img{
         filter: grayscale(100%);
 }
 img:hover{
-        filter: grayscale(0);
+        filter: grayscale(0%);
 }
