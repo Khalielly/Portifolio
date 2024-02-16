@@ -1,26 +1,92 @@
-body{  background-image: url(background_1.jpg);
-        background-size: cover;
-        color: rgb(23, 24, 24);
-        cursor: url("PicsArt_02-12-01.31.51.png"), auto;
+body {
+        background: rgb(206,147,230);
+        background: radial-gradient(circle, rgba(206,147,230,1) 0%, rgba(175,114,199,1) 91%);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        max-width: 1200px;
+        height: 100%;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        cursor: url("../img/sword.png"), auto;
+    }
+    
+    
+header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
 }
-h1{
-        font-family: "Open Sans", sans-serif;
-        color: rgb(238, 231, 233);
+
+#title {
+        flex-direction: column;
+        line-height: 13px;
+}
+
+li {
+        display: inline-block;
+        margin: 5px;
+}
+a{
+        color: rgb(0, 0, 0);
+}
+a:hover{
+        color: rgb(255, 196, 87);
+        transition: 0.5s all ;
+        text-shadow: 1px 1px 1px black;
+}
+
+h1 {
+        color: black;
+        font-weight: 150;
+        text-shadow: 1px 1px 1px rgb(88, 88, 88);
+}
+
+main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+}
+h2{
+        font-size: 56px;
+        line-height: 0%;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+span{
+        color: rgb(63, 0, 99);
+        font-size: 40px;
+        text-shadow: 1px 1px 1px white, 0 0 rgb(124, 78, 184);
 }
 p{
+        text-align: justify;
+        line-height: 17px;
+        font-family: serif;
+        padding: 5px;
+        
+}
+/*h1 {
+        font-family: "Open Sans", sans-serif;
+        color: rgb(238, 231, 233);
         text-align: center;
+        text-shadow: 1px 1px 1px black,  0 0 4px rgb(124, 78, 184);;
+}*/
+
+strong {
+        color: rgb(243, 231, 60);
+        font-size: medium;
 }
-.testecolor{
-        color: rgb(110, 199, 250);
-}
-img{
+
+
+img {
         filter: grayscale(100%);
 }
-img:hover{
+
+img:hover {
         filter: grayscale(0%);
 }
-button{
-        color:brown;
+
+button {
+        color: brown;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align:left;
+        text-align: left;
 }
