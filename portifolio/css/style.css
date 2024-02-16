@@ -1,0 +1,26 @@
+body{  background-image: url(background_1.jpg);
+        background-size: cover;
+        color: rgb(23, 24, 24);
+        cursor: url("PicsArt_02-12-01.31.51.png"), auto;
+}
+h1{
+        font-family: "Open Sans", sans-serif;
+        color: rgb(238, 231, 233);
+}
+p{
+        text-align: center;
+}
+.testecolor{
+        color: rgb(110, 199, 250);
+}
+img{
+        filter: grayscale(100%);
+}
+img:hover{
+        filter: grayscale(0%);
+}
+button{
+        color:brown;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align:left;
+}
