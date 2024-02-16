@@ -1,6 +1,6 @@
 body {
         background: rgb(206,147,230);
-        background: radial-gradient(circle, rgba(206,147,230,1) 0%, rgba(175,114,199,1) 91%);
+        background: radial-gradient(circle, rgb(190, 147, 230) 0%, rgb(165, 114, 199) 91%);
         font-family: Georgia, 'Times New Roman', Times, serif;
         max-width: 1200px;
         height: 100%;
@@ -50,12 +50,12 @@ main {
 h2{
         font-size: 56px;
         line-height: 0%;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 span{
-        color: rgb(63, 0, 99);
+        color: rgb(3, 39, 92);
         font-size: 40px;
-        text-shadow: 1px 1px 1px white, 0 0 rgb(124, 78, 184);
+        text-shadow: 1px 1px 1px white, 0 0 3px rgb(124, 78, 184);
 }
 p{
         text-align: justify;
@@ -72,7 +72,8 @@ p{
 }*/
 
 strong {
-        color: rgb(243, 231, 60);
+        color: rgb(255, 208, 0);
+        text-shadow: 1px 1px 1px rgb(53, 53, 53), 0 0 6px gray;
         font-size: medium;
 }
 
