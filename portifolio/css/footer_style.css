@@ -85,13 +85,13 @@ footer{
     color: #7f27c9;
 }
 
-#footer_subscribe{
+#footer_description{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-#footer_subscribe p{
+#footer_description p{
     color: var(--color-neutral-30);
 }
 
